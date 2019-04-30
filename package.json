@@ -1,0 +1,14 @@
+{
+  "name": "daftcode-fr-end-lvlup",
+  "version": "1.0.0",
+  "description": "courses-daftacademy",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Siarhei Drozd",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
