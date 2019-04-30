@@ -8,11 +8,11 @@ test('If argument is equal to 10, function must return [0,1,1,2,3,5,8,13,21,34]'
     expect(fib(10)).toEqual(expect.arrayContaining([0,1,1,2,3,5,8,13,21,34]));
 });
 
-test('If argument is equal to 3.5, function must return throw error', () => {
+test('If argument is equal to 1.12345, function must return throw error', () => {
     expect(() => fib(3.5)).toThrow("Argument must be a positive integer number!");
 });
 
-test('If argument is equal to -3, function must return throw error', () => {
+test('If argument is equal to -10, function must return throw error', () => {
     expect(() => fib(-3)).toThrow("Argument must be a positive integer number!");
 });
 
